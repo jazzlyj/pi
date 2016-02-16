@@ -5,3 +5,8 @@ chsh -s $(which zsh)
 
 # git
 sudo apt-get install git
+
+# libncurses (pre-req for vim)
+sudo apt-get install libncurses5-dev
+
+# vim
