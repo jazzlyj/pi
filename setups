@@ -10,3 +10,6 @@ sudo apt-get install git
 sudo apt-get install libncurses5-dev
 
 # vim
+
+# samba install
+sudo apt-get install samba samba-common-bin
