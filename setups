@@ -1,3 +1,7 @@
+# su to root
+sudo -i
+
+
 # Zsh
 (Optional) sudo apt-get update (update your apt-get cache)
 sudo apt-get install zsh
