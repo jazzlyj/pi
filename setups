@@ -2,3 +2,6 @@
 (Optional) sudo apt-get update (update your apt-get cache)
 sudo apt-get install zsh
 chsh -s $(which zsh)
+
+# git
+sudo apt-get install git
