@@ -13,7 +13,15 @@ sudo apt-get install git
 # libncurses (pre-req for vim)
 sudo apt-get install libncurses5-dev
 
-# vim
+# getting vim
+git clone https://github.com/vim/vim.git
+
+# Building Vim
+cd src
+make distclean  # if you build Vim before
+make
+sudo make install
+
 
 # samba install
 sudo apt-get install samba samba-common-bin
