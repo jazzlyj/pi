@@ -2,10 +2,12 @@
 # resize root partition
 sudo raspi-config
 
-# Zsh
-(Optional) sudo apt-get update (update your apt-get cache)
-sudo apt-get install zsh
-chsh -s $(which zsh)
+# update apt-get cache
+sudo apt-get update
+
+# install python3
+sudo apt-get install python3
+
 
 # git
 sudo apt-get install git
@@ -25,3 +27,9 @@ sudo make install
 
 # samba install
 sudo apt-get install samba samba-common-bin
+
+
+# Zsh
+(Optional) sudo apt-get update (update your apt-get cache)
+sudo apt-get install zsh
+chsh -s $(which zsh)
